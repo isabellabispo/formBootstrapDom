@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+@viewport {
+  zoom: 1;
+  width: device-width;
+}
+
+
+
+body{
+  background: linear-gradient(rgb(208, 171, 206), rgb(23, 165, 125)) no-repeat;
+}
+
+#h1{
+  color: #fff;
+  margin:  8vh;
+  font-family: monospace;
+
+}
+
+label{
+  color: #fff;
+  font-weight: 700;
+}
+input{
+  background-color: rgba(236, 233, 233, 0.824) !important;
+  border-color: transparent !important;
+}
+#userName{
+  width: 25%;
+
+}
+
+#email{
+  width: 25%;
+}
+ #password{
+  width: 15%;
+ }
+#confirmPassword{
+  width: 15%;
+}
+
+#emailHelp{
+  color: rgba(18, 13, 22, 0.698);
+}
+
+
+#inputcheck{
+  background-color: rgba(207, 191, 191, 0.723) !important;
+  
+  
+}
+#inputcheck:hover{
+  background-color:  #af1ca1bd !important;
+}
+
+
+button{
+  border: none !important;
+  width: 8rem;
+}
+
+a.animated-button.register {
+  box-shadow:  2px 2px  5px rgb(216, 216, 227);
+	color: #fff;
+  font-weight: 700;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+  margin-left: -2vh;
+}
+
+a.animated-button.register:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.register:before {
+  
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	background: #af1ca1bd;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)
+0s;
+}
+
+#hr-first{
+  box-shadow:  8px 7px  5px rgb(25, 25, 160);
+
+
+  
+}
+footer p{
+  color: #fff;
+  font-family: monospace;
+  text-align: right;
+  margin: 3vh;
+  font-size: 88%;
+}
+
+#img-bot{
+  position: relative;
+  width: 4%;
+  text-align: right !important;
+}
