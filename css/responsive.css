@@ -1,14 +1,48 @@
 
 
-@media (max-width: 890px) {
+@media (max-width: 977px) {
 
 #email{
-    width: 40%;
+    width: 50%;
   }
    #password{
-    width: 25%;
+    width: 35%;
    }
   #confirmPassword{
-    width: 25%;
+    width: 35%;
   }
 }
+
+
+@media (min-width:220px) and (max-width: 833px){
+    
+h1{
+    text-align: center;
+   
+}
+
+    #userName{
+        width: 50%;
+      
+      }
+    
+    #email{
+        width: 55%;
+      }
+       #password{
+        width: 40%;
+       }
+      #confirmPassword{
+        width: 40%;
+      }
+      footer{
+          margin-top: 3rem;
+      }
+    #img-bot{
+        width: 10%;
+    }
+    footer p{
+        font-size: 70%;
+    }
+    }
+
