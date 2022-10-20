@@ -18,6 +18,10 @@ body{
 
 }
 
+section{
+  margin-left: 5%;
+}
+
 label{
   color: #fff;
   font-weight: 700;
@@ -59,10 +63,13 @@ input{
 button{
   border: none !important;
   width: 8rem;
+  
 }
 
 a.animated-button.register {
-  box-shadow:  2px 2px  5px rgb(216, 216, 227);
+  border-width: 2px 3px 3px;
+  border-color:rgba(5, 54, 128, 0.779) !important;
+  box-shadow:  2px 2px  0px 1px rgba(5, 54, 128, 0.779) ;
 	color: #fff;
   font-weight: 700;
 	cursor: pointer;
@@ -76,9 +83,14 @@ a.animated-button.register:hover:before {
 	left: 0%;
 	right: auto;
 	width: 100%;
-}
-a.animated-button.register:before {
   
+}
+#res:hover{
+  color: #af1ca1bd ;
+  
+}
+
+a.animated-button.register:before {
 	display: block;
 	position: absolute;
 	top: 0px;
@@ -87,7 +99,7 @@ a.animated-button.register:before {
 	width: 0px;
 	z-index: -1;
 	content: '';
-	background: #af1ca1bd;
+	background: #eceff1c6;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)
 0s;
 }
@@ -110,4 +122,22 @@ footer p{
   position: relative;
   width: 4%;
   text-align: right !important;
+  filter: contrast(140%);
 }
+
+#img-bot:hover{
+    opacity: 70%;
+}
+
+#bootlink{
+  text-decoration: none;
+}
+
+#isa {
+ text-decoration: none ;
+ color: #fff;
+}
+
+#isa:hover {
+  color: rgba(0, 0, 0, 0.423);
+ }

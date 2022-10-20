@@ -1,0 +1,14 @@
+
+
+@media (max-width: 890px) {
+
+#email{
+    width: 40%;
+  }
+   #password{
+    width: 25%;
+   }
+  #confirmPassword{
+    width: 25%;
+  }
+}
